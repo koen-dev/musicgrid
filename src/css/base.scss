@@ -1,0 +1,13 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.musicgrid {
+  height: 100%;
+  width: 100%;
+  &.__cover {
+    display: inline-block;
+  }
+}
