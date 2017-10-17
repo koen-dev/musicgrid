@@ -2,12 +2,13 @@ html, body{
   margin: 0;
   padding: 0;
   line-height: 0;
+  background-color: black;
 }
 
 .musicgrid {
   height: 100%;
   width: 100%;
-  &.__cover {
+  &__cover {
     display: inline-block;
   }
 }

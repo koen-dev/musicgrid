@@ -14,12 +14,13 @@ export default class Album extends React.Component{
     render(){
         return(
             <div className="musicgrid__cover">
-                <img src={this.state.cover}/>
+                <img src={this.state.cover} width={this.props.size}/>
             </div>
         );
     }
 }
 
 Album.propTypes = {
-    album: PropTypes.object
+    album: PropTypes.object,
+    size: PropTypes.number
 };
